@@ -19,7 +19,6 @@ import java.io.File;
 
 class effect1  
 {
-	
 	JFrame fr=new JFrame();
 	JPanel p1=new JPanel();
     JPanel p2=new JPanel();
@@ -46,8 +45,6 @@ class effect1
 		fr.setLayout(new BorderLayout());
 		
 		p2.setLayout(new GridLayout(0,4,2,2));
-		
-		
 		p2.add(b1);
 		p2.add(b2);
 		p2.add(b3);
